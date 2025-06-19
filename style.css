@@ -500,10 +500,97 @@ section > img {
 	left: 1066px;
 }
 footer {
-	background-color: #f2f2f2;
+	background-color: white;
 	padding: 20px;
-	text-align: center;
+	border-top: 1px solid rgba(0, 0, 0, 0.17);
 }
-.footer__content__text__up__right ul > li {
-	padding-top: 10px;
+.footer__content {
+	margin: 0 auto;
+	max-width: 1200px;
+	margin-top: 48px;
+}
+.footer__content__text__up__content h2,
+p {
+	text-align: left;
+}
+.footer__content__text__up__content > h2 {
+	font-size: 24px;
+}
+.footer__content__text__up__content p {
+	padding-top: 50px;
+	font-family: Poppins;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	color: rgba(159, 159, 159, 1);
+}
+.footer__content__text__up {
+	display: flex;
+}
+.footer__content__text__up__right {
+	display: flex;
+	margin-left: 136px;
+}
+.footer__content__text__up__right p {
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	color: rgba(159, 159, 159, 1);
+}
+.footer__content__text__up__right > div:nth-child(2) {
+	margin-left: 144px;
+}
+.footer__content__text__up__right > div:nth-child(3) {
+	margin-left: 72px;
+}
+.footer__content__text__up__right > div:nth-child(3) > input,
+button {
+	border: none;
+	border-bottom: 1px solid black;
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	padding-bottom: 3px;
+	background-color: white;
+}
+.footer__content__text__up__right > div:nth-child(3) > input {
+	font-weight: 400;
+	color: rgba(159, 159, 159, 1);
+	padding-right: 27px;
+	width: 173px;
+}
+.footer__content__text__up__right > div:nth-child(3) > button {
+	padding-bottom: 5.5px;
+}
+.footer__content__text__up__right > div > p {
+	padding-bottom: 53px;
+}
+.footer__content__text__up__right > div > ul > p {
+	padding-bottom: 55px;
+}
+.footer__content__text__up__right > div > ul > li {
+	padding-bottom: 46px;
+	list-style-type: none;
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0%;
+}
+.footer__content__text__down {
+	margin-top: 48px;
+	padding-top: 35px;
+	border-top: 1px solid rgba(0, 0, 0, 0.17);
+}
+.footer__content__text__down p {
+	font-family: Poppins;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0%;
 }

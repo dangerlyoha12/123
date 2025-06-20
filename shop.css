@@ -1,0 +1,82 @@
+* {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h2 {
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 100%;
+	letter-spacing: 0%;
+}
+header {
+	padding: 30px 100px;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+}
+main {
+	margin-top: 100px;
+}
+.container {
+	max-width: 100%;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+}
+.primary-button {
+	display: flex;
+	gap: 75px;
+	text-decoration: none;
+}
+.primary-button > a {
+	color: black;
+}
+.icon {
+	display: flex;
+	gap: 45px;
+}
+.welcome-block {
+	background-image: url(image/welcome-block.png);
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.welcome-block > img {
+	width: 100%;
+	object-fit: cover;
+	height: 90%;
+}
+.welcome-block__content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.welcome-block__content p,
+h2 {
+	text-align: center;
+}
+.welcome-block__content p {
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	padding-top: 20px;
+}
+.welcome-block__content p span {
+	font-weight: 300;
+}
+.filter {
+	background-color: black;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
